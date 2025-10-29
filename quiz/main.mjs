@@ -22,7 +22,7 @@ const quizQuestions = [ // En array med objekt där varje objekt har två fält,
 
 let score = 0; // Här sparar vi antalet rätta svar
 
-console.log("Welcome to the Quiz Game!\n"); // Välkomsmeddelande
+console.log("Welcome to the Quiz Game!\n"); // Välkomstmeddelande
 
 for (let i = 0; i < quizQuestions.length; i++) {
     let userAnswer = prompt(quizQuestions[i].question).trim().toLowerCase();
